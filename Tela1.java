@@ -40,6 +40,7 @@ public class Tela1 extends AppCompatActivity {
         alterarBtn = findViewById(R.id.alterarBtn);
         VoltarBtn = findViewById(R.id.VoltarBtn);
 
+        //Não usamos o Recycler View porque não são exibidas muitas informações
         if (paciente != null) {
             nomeT.setText("Nome: " + paciente.nome);
             idadeT.setText("Idade: " + paciente.idade);
