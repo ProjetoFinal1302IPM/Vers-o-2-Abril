@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/nomeT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/idadeT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/emailT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/enderecoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço: "
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/alterarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar Informações"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/VoltarBtn"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:padding="12dp"
+        android:text="Voltar"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
